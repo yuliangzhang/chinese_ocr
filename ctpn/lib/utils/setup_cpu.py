@@ -20,7 +20,10 @@ except AttributeError:
 
 def customize_compiler_for_nvcc(self):
     self.src_extensions.append('.cu')
-    default_compiler_so = self.compiler_so
+
+    if hasattr(self, 'compiler_so'):  # add by hwx at 20180408
+        default_compiler_so = self.compiler_so
+    # default_compiler_so = self.compiler_so
     super = self._compile
     def _compile(obj, src, ext, cc_args, extra_postargs, pp_opts):
         print(extra_postargs)

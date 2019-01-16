@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88622168-5733-45f2-8392-6ea3af8be745" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/chinese_ocr-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctpn/lib/utils/build/temp.win-amd64-3.6/Release/bbox.cp36-win_amd64.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctpn/lib/utils/build/temp.win-amd64-3.6/Release/bbox.cp36-win_amd64.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctpn/lib/utils/build/temp.win-amd64-3.6/Release/bbox.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctpn/lib/utils/build/temp.win-amd64-3.6/Release/cython_nms.cp36-win_amd64.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctpn/lib/utils/build/temp.win-amd64-3.6/Release/cython_nms.cp36-win_amd64.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctpn/lib/utils/build/temp.win-amd64-3.6/Release/cython_nms.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easydict-1.9.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/data_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/data_train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/0_1547618610434.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/100_1547618611667.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/101_1547618611679.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/102_1547618611689.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/103_1547618611701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/104_1547618611711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/105_1547618611723.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/106_1547618611732.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/107_1547618611743.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/108_1547618611753.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/109_1547618611764.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/10_1547618610708.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/110_1547618611774.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/111_1547618611785.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/112_1547618611796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/113_1547618611807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/114_1547618611817.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/115_1547618611828.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/116_1547618611838.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/117_1547618611850.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/118_1547618611860.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/119_1547618611870.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/11_1547618610718.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/120_1547618611880.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/121_1547618611893.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/122_1547618611902.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/123_1547618611912.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/124_1547618611923.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/125_1547618611934.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/126_1547618611944.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/127_1547618611953.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/128_1547618611964.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/129_1547618611975.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/12_1547618610728.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/130_1547618611986.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/131_1547618611999.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/132_1547618612011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/133_1547618612024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/134_1547618612034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/135_1547618612049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/136_1547618612060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/137_1547618612072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/138_1547618612082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/139_1547618612095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/13_1547618610739.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/140_1547618612110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/141_1547618612132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/142_1547618612149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/143_1547618612183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/144_1547618612199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/145_1547618612217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/146_1547618612231.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/147_1547618612247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/148_1547618612263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/149_1547618612282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/14_1547618610748.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/150_1547618612297.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/151_1547618612313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/152_1547618612327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/153_1547618612339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/154_1547618612349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/155_1547618612362.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/156_1547618612373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/157_1547618612385.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/158_1547618612396.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/159_1547618612407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/15_1547618610758.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/160_1547618612419.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/161_1547618612432.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/162_1547618612442.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/163_1547618612453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/164_1547618612464.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/165_1547618612476.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/166_1547618612487.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/167_1547618612501.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/168_1547618612517.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/169_1547618612536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/16_1547618610768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/170_1547618612550.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/171_1547618612566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/172_1547618612648.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/173_1547618612692.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/174_1547618612712.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/175_1547618612730.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/176_1547618612757.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/177_1547618612777.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/178_1547618612793.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/179_1547618612811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/17_1547618610780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/180_1547618612829.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/181_1547618612847.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/182_1547618612863.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/183_1547618612877.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/184_1547618612892.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/185_1547618612908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/186_1547618612921.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/187_1547618612934.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/188_1547618612947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/189_1547618612963.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/18_1547618610790.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/190_1547618612977.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/191_1547618612991.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/192_1547618613004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/193_1547618613022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/194_1547618613037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/195_1547618613053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/196_1547618613070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/197_1547618613088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/198_1547618613103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/199_1547618613119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/19_1547618610800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/1_1547618610465.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/20_1547618610809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/21_1547618610823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/22_1547618610833.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/23_1547618610843.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/24_1547618610853.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/25_1547618610864.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/26_1547618610875.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/27_1547618610884.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/28_1547618610895.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/29_1547618610908.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/2_1547618610576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/30_1547618610918.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/31_1547618610928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/32_1547618610938.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/33_1547618610950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/34_1547618610960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/35_1547618610971.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/36_1547618610981.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/37_1547618610992.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/38_1547618611008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/39_1547618611019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/3_1547618610628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/40_1547618611030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/41_1547618611041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/42_1547618611052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/43_1547618611063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/44_1547618611073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/45_1547618611084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/46_1547618611095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/47_1547618611107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/48_1547618611117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/49_1547618611128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/4_1547618610639.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/50_1547618611138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/51_1547618611149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/52_1547618611159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/53_1547618611170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/54_1547618611181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/55_1547618611192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/56_1547618611203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/57_1547618611214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/58_1547618611224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/59_1547618611235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/5_1547618610649.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/60_1547618611244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/61_1547618611256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/62_1547618611266.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/63_1547618611277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/64_1547618611287.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/65_1547618611298.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/66_1547618611309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/67_1547618611319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/68_1547618611330.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/69_1547618611341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/6_1547618610665.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/70_1547618611350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/71_1547618611361.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/72_1547618611373.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/73_1547618611383.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/74_1547618611394.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/75_1547618611405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/76_1547618611415.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/77_1547618611426.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/78_1547618611436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/79_1547618611446.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/7_1547618610676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/80_1547618611456.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/81_1547618611467.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/82_1547618611478.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/83_1547618611488.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/84_1547618611498.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/85_1547618611509.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/86_1547618611518.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/87_1547618611528.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/88_1547618611539.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/89_1547618611550.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/8_1547618610686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/90_1547618611561.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/91_1547618611571.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/92_1547618611581.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/93_1547618611593.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/94_1547618611604.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/95_1547618611615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/96_1547618611625.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/97_1547618611637.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/98_1547618611646.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/99_1547618611657.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/images/9_1547618610697.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctpn/data/VOCdevkit2007" beforeDir="false" afterPath="$PROJECT_DIR$/ctpn/data/VOCdevkit2007" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctpn/lib/utils/bbox.c" beforeDir="false" afterPath="$PROJECT_DIR$/ctpn/lib/utils/bbox.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctpn/lib/utils/cython_nms.c" beforeDir="false" afterPath="$PROJECT_DIR$/ctpn/lib/utils/cython_nms.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctpn/lib/utils/setup_cpu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ctpn/lib/utils/setup_cpu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/densenet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/densenet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2143669201">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="VOCdevkit2007" value="1" />
+          <entry key="c" value="2" />
+          <entry key="jpg" value="3" />
+          <entry key="py" value="36" />
+          <entry key="pyx" value="2" />
+          <entry key="sh" value="3" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="2" />
+          <entry key="Image" value="3" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="15" />
+          <entry key="dummy" value="17" />
+          <entry key="py" value="299" />
+          <entry key="sh" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C++" value="15" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Python" value="299" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/densenet/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ctpn/data/VOCdevkit2007">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/bbox.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10825">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train/char_std_5990.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2050">
+              <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compiler_so</find>
+      <find>default_compiler_so</find>
+      <find>dense</find>
+      <find>densenet</find>
+      <find>keys</find>
+      <find>keras_densenet</find>
+      <find>basemodel</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ctpn/lib/utils/setup_cpu.py" />
+        <option value="$PROJECT_DIR$/ctpn/lib/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/random_test.py" />
+        <option value="$PROJECT_DIR$/train/train.py" />
+        <option value="$PROJECT_DIR$/keras_learning.py" />
+        <option value="$PROJECT_DIR$/setup.sh" />
+        <option value="$PROJECT_DIR$/densenet/model.py" />
+        <option value="$PROJECT_DIR$/ctpn/lib/utils/bbox.c" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1368" />
+    <option name="y" value="-8" />
+    <option name="width" value="1376" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chinese_ocr-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chinese_ocr-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chinese_ocr-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chinese_ocr-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ctpn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chinese_ocr-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chinese_ocr-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ctpn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chinese_ocr-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chinese_ocr-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ctpn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TextRecognitionDataGenerator/TextRecognitionDataGenerator" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AI_Object_Detect\Code\chinese_ocr-master\ctpn\lib\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chinese_ocr-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\ProgramData\Anaconda3\envs\venv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chinese_ocr-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\ProgramData\Anaconda3\envs\venv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/densenet" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/densenet/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chinese_ocr-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="chinese_ocr-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\ProgramData\Anaconda3\envs\venv\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.random_test" />
+      <item itemvalue="Python.model" />
+      <item itemvalue="Python.train" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.model" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.random_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88622168-5733-45f2-8392-6ea3af8be745" name="Default Changelist" comment="" />
+      <created>1547191494280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547191494280</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1368" y="-8" width="1376" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31763828" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14307693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/random_test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train/train.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>len(str)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo/demo_detect.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/fast_rcnn/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/envs/venv/Lib/site-packages/Cython/Distutils/old_build_ext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/envs/venv/Lib/distutils/command/build_ext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="338" column="31" selection-start-line="338" selection-start-column="31" selection-end-line="338" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/setup_cpu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/make_cpu.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="15" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/cython_nms.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_images/demo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/bbox.py" />
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/bbox.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/imp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="306" column="4" selection-start-line="306" selection-start-column="4" selection-end-line="306" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/text_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21050">
+          <caret line="846" column="69" selection-start-line="846" selection-start-column="69" selection-end-line="846" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/densenet/keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/densenet/densenet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/densenet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/densenet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/char_std_5990.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2050">
+          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/densenet/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/data/VOCdevkit2007">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctpn/lib/utils/bbox.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10825">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

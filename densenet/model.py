@@ -7,10 +7,10 @@ from PIL import Image, ImageOps
 from keras.layers import Input
 from keras.models import Model
 # import keras.backend as K
-
+import time
+import cv2
 from . import keys
 from . import densenet
-
 reload(densenet)
 
 characters = keys.alphabet[:]
@@ -34,6 +34,7 @@ def decode(pred):
     return u''.join(char_list)
 
 def predict(img):
+    t = time.time()
     width, height = img.size[0], img.size[1]
     scale = height * 1.0 / 32
     width = int(width / scale)
@@ -57,5 +58,11 @@ def predict(img):
     # out = K.get_value(K.ctc_decode(y_pred, input_length=np.ones(y_pred.shape[0]) * y_pred.shape[1])[0][0])[:, :]
     # out = u''.join([characters[x] for x in out[0]])
     out = decode(y_pred)
-
+    print("Recoginition complete, it took {:.3f}s".format(time.time() - t))
     return out
+
+
+if __name__=="__main__":
+    img = cv2.imread("test_images/demo.jpg")
+    Image.fromarray(img).show()
+
