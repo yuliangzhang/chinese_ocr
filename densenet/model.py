@@ -1,5 +1,6 @@
 #-*- coding:utf-8 -*-
 import os
+from glob import glob
 import numpy as np
 from imp import reload
 from PIL import Image, ImageOps
@@ -9,8 +10,10 @@ from keras.models import Model
 # import keras.backend as K
 import time
 import cv2
-from . import keys
-from . import densenet
+# from . import keys
+# from . import densenet
+import keys
+import densenet
 reload(densenet)
 
 characters = keys.alphabet[:]
@@ -21,7 +24,13 @@ input = Input(shape=(32, None, 1), name='the_input')
 y_pred= densenet.dense_cnn(input, nclass)
 basemodel = Model(inputs=input, outputs=y_pred)
 
-modelPath = os.path.join(os.getcwd(), 'densenet/models/weights_densenet.h5')
+# modelPath = os.path.join(os.getcwd(), 'densenet/models/weights_densenet-05-0.15.h5')
+# modelPath = os.path.join(os.getcwd(), 'densenet/models/weights_densenet.h5')
+
+
+modelPath = os.path.join(os.getcwd(), 'models/weights_densenet-05-0.15.h5')
+# modelPath = os.path.join(os.getcwd(), 'models/weights_densenet.h5')
+
 if os.path.exists(modelPath):
     basemodel.load_weights(modelPath)
 
@@ -61,8 +70,15 @@ def predict(img):
     print("Recoginition complete, it took {:.3f}s".format(time.time() - t))
     return out
 
+image_files = glob('../test_images/*.*')
 
 if __name__=="__main__":
-    img = cv2.imread("test_images/demo.jpg")
-    Image.fromarray(img).show()
+    for image_file in sorted(image_files):
+        t = time.time()
+        image = Image.open(image_file).convert('L')
+        res = predict(image)
+        print("Mission complete, it took {:.3f}s".format(time.time() - t))
+        print(image_file + ":" + res)
+    # img = cv2.imread("test_images/0_1547820097880.jpg")
+    # Image.fromarray(img).show()
 
