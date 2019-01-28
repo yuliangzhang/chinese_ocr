@@ -49,10 +49,12 @@ def dense_cnn(input, nclass):
 
     _nb_filter = 64
     # conv 64 5*5 s=2
+    # 网络结构： 16 * 64
     x = Conv2D(_nb_filter, (5, 5), strides=(2, 2), kernel_initializer='he_normal', padding='same',
                use_bias=False, kernel_regularizer=l2(_weight_decay))(input)
    
     # 64 + 8 * 8 = 128
+    #网络机构：16 * 128
     x, _nb_filter = dense_block(x, 8, _nb_filter, 8, None, _weight_decay)
     # 128
     x, _nb_filter = transition_block(x, 128, _dropout_rate, 2, _weight_decay)
@@ -62,7 +64,7 @@ def dense_cnn(input, nclass):
     # 192 -> 128
     x, _nb_filter = transition_block(x, 128, _dropout_rate, 2, _weight_decay)
 
-    # 128 + 8 * 8 = 192
+    # 128 + 8 * 8 =
     x, _nb_filter = dense_block(x, 8, _nb_filter, 8, None, _weight_decay)
 
     x = BatchNormalization(axis=-1, epsilon=1.1e-5)(x)

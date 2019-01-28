@@ -161,7 +161,7 @@ if __name__ == '__main__':
 
     print('-----------Start training-----------')
     model.fit_generator(train_loader,
-    	steps_per_epoch = 3607567 // batch_size,
+    	steps_per_epoch = 200000 // batch_size,
     	epochs = 10,
     	initial_epoch = 0,
     	validation_data = test_loader,
